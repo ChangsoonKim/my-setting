@@ -52,3 +52,7 @@ required [Homebrew](https://github.com/dongyeonlee/setting#Homebrew)
 ```sudo hostname [yourhostname]```
 ## Show hidden file & directory
 ```defaults write com.apple.Finder AppleShowAllFiles YES```
+
+# Other
+## More Alias?
+  - `sh ./Terminal/alias.sh`

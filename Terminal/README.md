@@ -54,3 +54,6 @@ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/theme
 ```
 cp ./.bash_profile ~/
 ```
+
+## Want more alias?
+- do it `sh ./alias.sh`
