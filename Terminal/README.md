@@ -54,6 +54,16 @@ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/theme
 ```
 cp ./.bash_profile ~/
 ```
+ my bash_prifile include below
+ 1. JAVA_HOME
+ 2. HOMEBREW_GITHUB_API_TOKEN
+ 3. PATH
+ 4. CLICOLOR
+ 5. LSCOLORS
+ 6. (new) CATALINA_HOME
 
+CATALINA_HOME means tomcat root directory <br>
+and typing below command.<br>
+`sudo ln -s your/tomcat/directory /Library/Tomcat`<br>
 ## Want more alias?
 - do it `sh ./alias.sh`
