@@ -67,3 +67,9 @@ and typing below command.<br>
 `sudo ln -s your/tomcat/directory /Library/Tomcat`<br>
 ## Want more alias?
 - do it `sh ./alias.sh`
+
+# Diffrent ZSH and Bash
+1. scp
+ - cause by [glob](https://en.wikipedia.org/wiki/Glob_(programming))
+ - Use like below case. <br>
+  `noglob scp`
