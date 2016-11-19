@@ -8,20 +8,20 @@
  7. wget
 
 ## macOS CLT
-```xcode-select  -—install```
+`xcode-select  -—install`
 
 ## Homebrew
-```/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
 ## java
   `brew cask install java`
 
-## scala
-  `brew install scala`
+## scala with docs and source
+  `brew install scala --with-docs --with-src`
 
 ## zsh
    `brew install zsh` <br>
-   `chsh -s /usr/local/bin/zsh` <br>
+   `chsh -s $(which zsh)` <br>
    **restart Terminal**
 
 ## pstree
@@ -47,11 +47,11 @@ required [Homebrew](https://github.com/dongyeonlee/setting#Homebrew)
 # Help
 ## Show alias
   1. open iTerm or Terminal
-  2. `alais` on commond line
+  2. `alias` on commond line
   3. show alias setting
 
 ## Check zsh version
-```zsh --version```
+`zsh --version`
 
 # Another
 ## Change macOS Hostname
