@@ -11,7 +11,7 @@
 `xcode-select  -—install`
 
 ## Homebrew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
 ## java
   `brew cask install java`
@@ -62,3 +62,5 @@ required [Homebrew](https://github.com/dongyeonlee/setting#Homebrew)
 # Other
 ## More Alias?
   - `sh ./Terminal/alias.sh`
+## you want create bash_profile ?
+  - `sh ./Terminal/bash_profile.sh`
