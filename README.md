@@ -62,5 +62,6 @@ required [Homebrew](https://github.com/dongyeonlee/setting#Homebrew)
 # Other
 ## More Alias?
   - `sh ./Terminal/alias.sh`
+  
 ## you want create bash_profile ?
   - `sh ./Terminal/bash_profile.sh`
