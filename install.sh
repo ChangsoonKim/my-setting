@@ -1,6 +1,6 @@
 brew install zsh
 
-chsh -s /usr/local/bin/zsh
+chsh -s $(which zsh)
 
 mkdir -p ~/.oh-my-zsh/custom/themes
 
@@ -17,13 +17,19 @@ echo 'source ~/.bash_profile' >> ~/.zshrc
 echo 'export PATH="/usr/local/sbin:$PATH"' >> ~/.zshrc
 echo 'export DEFAULT_USER="$USER"' >> ~/.zshrc
 
+# shell
+sh ./Terminal/aliash.sh
+sh ./Terminal/bash_profile.sh
+
 # bash required super user
 sudo cp ./Terminal/.bash_profile ~/
 
+brew cask install java
 brew install pstree
 brew install tree
 brew install git
 brew install svn
 brew install wget
+brew install scala --with-docs --with-src
 
 defaults write com.apple.Finder AppleShowAllFiles YES

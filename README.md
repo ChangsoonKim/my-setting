@@ -13,25 +13,31 @@
 ## Homebrew
 ```/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
 
+## java
+  `brew cask install java`
+
+## scala
+  `brew install scala`
+
 ## zsh
-   ```brew install zsh``` <br>
-   ```chsh -s /usr/local/bin/zsh ``` <br>
+   `brew install zsh` <br>
+   `chsh -s /usr/local/bin/zsh` <br>
    **restart Terminal**
 
 ## pstree
-  ```brew install pstree```
+  `brew install pstree`
 
 ## tree
-  ```brew install pstree```
+  `brew install pstree`
 
 ## git
-  ```brew install git```
+  `brew install git`
 
 ## svn
-  ```brew install svn```
+  `brew install svn`
 
 ## wget
- ```brew install wget```
+ `brew install wget`
 
 # Install
 run `./install.sh` on terminal <br>
