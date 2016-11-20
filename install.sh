@@ -33,5 +33,6 @@ brew install wget
 brew install scala --with-docs --with-src
 brew install ruby
 brew install maven
+brew install nodejs --with-debug --with-openssl
 
 defaults write com.apple.Finder AppleShowAllFiles YES

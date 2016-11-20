@@ -6,6 +6,11 @@
  5. git
  6. svn
  7. wget
+ 8. java
+ 9. scala with docs and source
+ 10. ruby
+ 11. maven
+ 12. nodejs
 
 ## macOS CLT
 `xcode-select  -—install`
@@ -48,7 +53,10 @@
 ## maven
   `brew install maven`
 
-# Install
+## nodejs
+  `brew install nodejs --with-debug --with-openssl`
+
+# install
 run `./install.sh` on terminal <br>
 required [zsh](https://github.com/dongyeonlee/setting#zsh)<br>
 required [Homebrew](https://github.com/dongyeonlee/setting#Homebrew)
