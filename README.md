@@ -54,7 +54,7 @@
   `brew install maven`
 
 ## nodejs
-  `brew install nodejs --with-debug --with-openssl`
+  `brew install nodejs`
 
 # install
 run `./install.sh` on terminal <br>
