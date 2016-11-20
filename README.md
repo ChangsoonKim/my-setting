@@ -13,11 +13,6 @@
 ## Homebrew
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
-## java
-  `brew cask install java`
-
-## scala with docs and source
-  `brew install scala --with-docs --with-src`
 
 ## zsh
    `brew install zsh` <br>
@@ -38,6 +33,17 @@
 
 ## wget
  `brew install wget`
+
+## java
+  `brew cask install java`
+
+## scala with docs and source
+  `brew install scala --with-docs --with-src`
+
+## ruby
+  `brew install ruby`
+  - install bundler
+    - `gem install bundler`
 
 # Install
 run `./install.sh` on terminal <br>
@@ -62,6 +68,6 @@ required [Homebrew](https://github.com/dongyeonlee/setting#Homebrew)
 # Other
 ## More Alias?
   - `sh ./Terminal/alias.sh`
-  
+
 ## you want create bash_profile ?
   - `sh ./Terminal/bash_profile.sh`

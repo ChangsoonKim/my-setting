@@ -31,5 +31,6 @@ brew install git
 brew install svn
 brew install wget
 brew install scala --with-docs --with-src
+brew install ruby
 
 defaults write com.apple.Finder AppleShowAllFiles YES
