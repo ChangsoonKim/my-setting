@@ -45,6 +45,9 @@
   - install bundler
     - `gem install bundler`
 
+## maven
+  `brew install maven`
+
 # Install
 run `./install.sh` on terminal <br>
 required [zsh](https://github.com/dongyeonlee/setting#zsh)<br>
