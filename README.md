@@ -12,6 +12,10 @@
  11. maven
  12. nodejs
 
+## required before starting this setting using shell.
+ 1. [macOS CLT](#macos-clt)
+ 2. [Homebrew](#homebrew)
+
 ## macOS CLT
 `xcode-select  -—install`
 
