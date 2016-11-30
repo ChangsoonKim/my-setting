@@ -1,3 +1,6 @@
+# Notice
+Shell needs root(sudo) user authority.
+
 # Default Setting
  1. macOS CLT(Command Line Tool)
  2. Homebrew
@@ -16,12 +19,17 @@
  1. [macOS CLT](#macos-clt)
  2. [Homebrew](#homebrew)
 
+### Would you want include the required environment to install.sh?
+`sh complete_install.sh`
+
 ## macOS CLT
-`xcode-select  -—install`
+`xcode-select -—install`
 
 ## Homebrew
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
+### if you want remove outdated package
+`brew cleanup`
 
 ## zsh
    `brew install zsh` <br>
@@ -80,7 +88,6 @@ required [Homebrew](https://github.com/dongyeonlee/setting#Homebrew)
 ## Show hidden file & directory
 ```defaults write com.apple.Finder AppleShowAllFiles YES```
 
-# Other
 ## More Alias?
   - `sh ./Terminal/alias.sh`
 
