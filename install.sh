@@ -1,10 +1,10 @@
 brew install zsh
 
-chsh -s $(which zsh)
-
-mkdir -p ~/.oh-my-zsh/custom/themes
+sudo chsh -s $(which zsh)
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+mkdir -p ~/.oh-my-zsh/custom/themes
 
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 
@@ -18,11 +18,8 @@ echo 'export PATH="/usr/local/sbin:$PATH"' >> ~/.zshrc
 echo 'export DEFAULT_USER="$USER"' >> ~/.zshrc
 
 # shell
-sh ./Terminal/aliash.sh
-sh ./Terminal/bash_profile.sh
-
-# bash required super user
-sudo cp ./Terminal/.bash_profile ~/
+sh Terminal/aliash.sh
+sh Terminal/bash_profile.sh
 
 brew cask install java
 brew install pstree
