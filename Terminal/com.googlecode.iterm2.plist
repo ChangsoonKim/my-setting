@@ -228,7 +228,7 @@
 	<key>NSFontPanelAttributes</key>
 	<string>1, 0</string>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/project/my-setting/Terminal</string>
+	<string>~/project/my-setting/terminal</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{712, 448}</string>
 	<key>NSQuotedKeystrokeBinding</key>
@@ -879,7 +879,7 @@
 			<false/>
 			<key>Tags</key>
 			<array/>
-			<key>Terminal Type</key>
+			<key>terminal Type</key>
 			<string>xterm-256color</string>
 			<key>Transparency</key>
 			<real>0.0</real>
@@ -943,7 +943,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/loustler/project/my-setting/Terminal</string>
+	<string>/Users/loustler/project/my-setting/terminal</string>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>

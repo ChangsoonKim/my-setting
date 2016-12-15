@@ -13,12 +13,13 @@ sed -i -- 's/robbyrussell/powerlevel9k\/powerlevel9k/g' ~/.zshrc
 
 # add config
 echo 'source ~/.oh-my-zsh/custom/themes/powerlevel9k/powerlevel9k.zsh-theme' >> ~/.zshrc
+echo 'source ~/.bash_profile' >> ~/.zshrc
 echo 'export PATH="/usr/local/sbin:$PATH"' >> ~/.zshrc
 echo 'export DEFAULT_USER="$USER"' >> ~/.zshrc
 
 # shell
-sh Terminal/aliash.sh
-sh Terminal/bash_profile.sh
+sh terminal/aliash.sh
+sh terminal/bash_profile.sh
 
 brew cask install java
 brew install pstree
@@ -30,5 +31,11 @@ brew install scala --with-docs --with-src
 brew install ruby
 brew install maven
 brew install nodejs
+brew install vim
+brew install ammonite-repl
+brew install docker
+brew install zookeeper
+brew install kafka
+brew install gradle --with-all
 
 defaults write com.apple.Finder AppleShowAllFiles YES

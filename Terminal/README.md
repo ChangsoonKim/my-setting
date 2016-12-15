@@ -1,8 +1,8 @@
-# Terminal Setting
-## iTerm Terminal (Mac OS Terminal Replacement)
+# terminal Setting
+## iTerm terminal (Mac OS terminal Replacement)
   - [Download](https://www.iterm2.com/downloads.html)
 
-### Use iTerm Terminal Scheme
+### Use iTerm terminal Scheme (Not automatically)
   * [Repository](https://github.com/mbadolato/iTerm2-Color-Schemes)
   * How to install
     -  [README.md](https://github.com/mbadolato/iTerm2-Color-Schemes#installation-instructions)
@@ -42,7 +42,7 @@ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/theme
 ```
   * Config
     - config file [power.sh](./.power.sh)
-    - move to home directory ```cp ./Terminal/.power.sh ~/ ```
+    - move to home directory ```cp ./terminal/.power.sh ~/ ```
     - add to `~/.zshrc`
       - ```source ~/.power.sh```
     - brew config
@@ -50,9 +50,9 @@ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/theme
     - [more config](https://github.com/bhilburn/powerlevel9k/wiki/Show-Off-Your-Config)
 
 ## .bash_profile & my conf
-  * [view .bash_profile](./.bash_profile)
+  * [view .bash_profile.sh](./.bash_profile.sh)
 ```
-cp ./.bash_profile ~/
+sh bash_profile.sh
 ```
  my bash_prifile include below
  1. JAVA_HOME
@@ -66,7 +66,7 @@ CATALINA_HOME means tomcat root directory <br>
 and typing below command.<br>
 `sudo ln -s your/tomcat/directory /Library/Tomcat`<br>
 ## Want more alias?
-- do it `sh ./alias.sh`
+- do it `sh alias.sh`
 
 # Diffrent ZSH and Bash
 1. scp

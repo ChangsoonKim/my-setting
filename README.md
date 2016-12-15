@@ -14,6 +14,11 @@ Shell needs root(sudo) user authority.
  10. ruby
  11. maven
  12. nodejs
+ 13. vim
+ 14. ammonite-repl
+ 15. docker
+ 16. kafka
+ 17. gradle with all
 
 ## required environment before starting this setting using shell.
  1. [macOS CLT](#macos-clt)
@@ -34,7 +39,7 @@ Shell needs root(sudo) user authority.
 ## zsh
    `brew install zsh` <br>
    `chsh -s $(which zsh)` <br>
-   **restart Terminal**
+   **restart terminal**
 
 ## pstree
   `brew install pstree`
@@ -68,6 +73,21 @@ Shell needs root(sudo) user authority.
 ## nodejs
   `brew install nodejs`
 
+## vim
+    `brew install vim`
+
+## ammonite-repl
+    `brew install ammonite-repl`
+
+## docker
+    `brew install docker` with `brew install zookeeper` (required)
+
+## kafka
+    `brew install kafka`
+
+## gradle
+    `brew install gradle --with-all`
+
 # install
 run `./install.sh` on terminal <br>
 required [zsh](https://github.com/dongyeonlee/setting#zsh)<br>
@@ -75,7 +95,7 @@ required [Homebrew](https://github.com/dongyeonlee/setting#Homebrew)
 
 # Help
 ## Show alias
-  1. open iTerm or Terminal
+  1. open iTerm or terminal
   2. `alias` on commond line
   3. show alias setting
 
@@ -89,7 +109,11 @@ required [Homebrew](https://github.com/dongyeonlee/setting#Homebrew)
 ```defaults write com.apple.Finder AppleShowAllFiles YES```
 
 ## More Alias?
-  - `sh ./Terminal/alias.sh`
+  - `sh ./terminal/alias.sh`
 
 ## you want create bash_profile ?
-  - `sh ./Terminal/bash_profile.sh`
+  - `sh ./terminal/bash_profile.sh`
+
+# Alfred
+ Alfred directory include my custom setting for Alfred workflow.<br>
+ So lovely custom workflow. I think very useful workflow for me.<br>
