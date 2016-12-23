@@ -19,6 +19,8 @@ Shell needs root(sudo) user authority.
  15. docker
  16. kafka
  17. gradle with all
+ 18. hadoop
+ 19. spark
 
 ## required environment before starting this setting using shell.
  1. [macOS CLT](#macos-clt)
@@ -87,6 +89,12 @@ Shell needs root(sudo) user authority.
 
 ## gradle
     `brew install gradle --with-all`
+
+## hadoop
+    `brew install hadoop`
+
+## spark
+    `brew install apache-spark`
 
 # install
 run `./install.sh` on terminal <br>

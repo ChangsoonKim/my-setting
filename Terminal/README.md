@@ -52,7 +52,7 @@ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/theme
 ## .bash_profile & my conf
   * [view .bash_profile.sh](./.bash_profile.sh)
 ```
-sh bash_profile.sh
+sh /shell/bash_profile.sh
 ```
  my bash_prifile include below
  1. JAVA_HOME
@@ -66,7 +66,7 @@ CATALINA_HOME means tomcat root directory <br>
 and typing below command.<br>
 `sudo ln -s your/tomcat/directory /Library/Tomcat`<br>
 ## Want more alias?
-- do it `sh alias.sh`
+- do it `sh /shell/alias.sh`
 
 # Diffrent ZSH and Bash
 1. scp
