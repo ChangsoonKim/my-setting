@@ -3,3 +3,6 @@ source zsh_config.sh
 
 source custom_alias.sh
 source bash_profile.sh
+
+# Attach custom function
+source functionz.sh
