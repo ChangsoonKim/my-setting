@@ -119,7 +119,7 @@ required [Homebrew](https://github.com/dongyeonlee/setting#Homebrew)
 ## More Alias?
   - `sh ./terminal/alias.sh`
 
-## you want create bash_profile ?
+## Do you want create bash_profile ?
   - `sh ./terminal/bash_profile.sh`
 
 # Alfred

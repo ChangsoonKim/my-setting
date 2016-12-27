@@ -32,6 +32,7 @@ while IFS= read -r -d $'\0'; do
       echo "starting $MY_CMD in $REPLY"
       cd "$REPLY"
       eval $MY_CMD
+      cd ..
       echo "----------------------------------------$CNT"
   fi
   CNT=$(($CNT + 1))
