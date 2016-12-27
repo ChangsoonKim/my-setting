@@ -60,7 +60,7 @@
 			<string>' '</string>
 			<string>yy</string>
 			<string>', '</string>
-			<string>hh</string>
+			<string>HH</string>
 			<string>':'</string>
 			<string>mm</string>
 			<string>':'</string>
@@ -76,7 +76,7 @@
 			<string>' '</string>
 			<string>yy</string>
 			<string>', '</string>
-			<string>hh</string>
+			<string>HH</string>
 			<string>':'</string>
 			<string>mm</string>
 			<string>':'</string>
