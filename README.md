@@ -1,6 +1,10 @@
 # Notice
 Shell needs root(sudo) user authority.
 
+## Warning
+Execute command `exit` after install oh-my-zsh.<br>
+And `install.sh` or `complete_install.sh` will continue installation.
+
 # Default Setting
  1. [macOS CLT(Command Line Tool)](#macos-clt)
  2. [Homebrew](#homebrew)
