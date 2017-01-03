@@ -6,3 +6,6 @@ echo 'source ~/.oh-my-zsh/custom/themes/powerlevel9k/powerlevel9k.zsh-theme' >> 
 echo 'source ~/.bash_profile' >> ~/.zshrc
 echo 'export PATH="/usr/local/sbin:$PATH"' >> ~/.zshrc
 echo 'export DEFAULT_USER="$USER"' >> ~/.zshrc
+
+# overwrite config
+cat shell/custom_alias.sh >> ~/.zshrc
