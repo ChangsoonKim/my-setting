@@ -8,7 +8,7 @@ brew install scala --with-docs --with-src
 brew install ruby
 brew install maven
 brew install nodejs
-brew install vim
+brew install vim --with-override-system-vi
 brew install ammonite-repl
 brew install docker
 brew install zookeeper
@@ -16,3 +16,7 @@ brew install kafka
 brew install gradle --with-all
 brew install hadoop
 brew install apache-spark
+brew install mongodb
+brew install redis
+brew install postgresql
+brew install rabbitmq

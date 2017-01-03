@@ -2,25 +2,29 @@
 Shell needs root(sudo) user authority.
 
 # Default Setting
- 1. macOS CLT(Command Line Tool)
- 2. Homebrew
- 3. zsh
- 4. pstree
- 5. git
- 6. svn
- 7. wget
- 8. java
- 9. scala with docs and source
- 10. ruby
- 11. maven
- 12. nodejs
- 13. vim
- 14. ammonite-repl
- 15. docker
- 16. kafka
- 17. gradle with all
- 18. hadoop
- 19. spark
+ 1. [macOS CLT(Command Line Tool)](#macos-clt)
+ 2. [Homebrew](#homebrew)
+ 3. [zsh](#zsh)
+ 4. [pstree](#pstree)
+ 5. [git](#git)
+ 6. [svn](#svn)
+ 7. [wget](#wget)
+ 8. [java](#java)
+ 9. [scala with docs and source](#scala-with-docs-and-source)
+ 10. [ruby](#ruby)
+ 11. [maven](#maven)
+ 12. [nodejs](#nodejs)
+ 13. [vim](#vim)
+ 14. [ammonite-repl](#ammonite-repl)
+ 15. [docker](#docker)
+ 16. [kafka](#kafka)
+ 17. [gradle with all](#gradle)
+ 18. [hadoop](#hadoop)
+ 19. [spark](#spark)
+ 20. [mongodb](#mongodb)
+ 21. [postgresql](#postgresql)
+ 22. [redis](#redis)
+ 23. [rabbitmq](#rabbitmq)
 
 ## required environment before starting this setting using shell.
  1. [macOS CLT](#macos-clt)
@@ -76,25 +80,37 @@ Shell needs root(sudo) user authority.
   `brew install nodejs`
 
 ## vim
-    `brew install vim`
+  `brew install vim`
 
 ## ammonite-repl
-    `brew install ammonite-repl`
+  `brew install ammonite-repl`
 
 ## docker
-    `brew install docker` with `brew install zookeeper` (required)
+  `brew install docker` with `brew install zookeeper` (required)
 
 ## kafka
-    `brew install kafka`
+  `brew install kafka`
 
 ## gradle
-    `brew install gradle --with-all`
+  `brew install gradle --with-all`
 
 ## hadoop
-    `brew install hadoop`
+  `brew install hadoop`
 
 ## spark
-    `brew install apache-spark`
+  `brew install apache-spark`
+
+## mongodb
+  `brew install mongodb`
+
+## postgresql
+  `brew install postgresql`
+
+## redis
+  `brew install redis`
+
+## rabbitmq
+  `brew install rabbitmq`
 
 # install
 run `./install.sh` on terminal <br>
