@@ -127,6 +127,12 @@ required [Homebrew](https://github.com/dongyeonlee/setting#Homebrew)
   2. `alias` on commond line
   3. show alias setting
 
+## current custom alias
+  1. `gmsq` aliased to `git merge --squash`(Branch merged that some commits to be merge one commit)
+  2. `gbm` aliased to `git branch -m`(branch rename)
+  3. `psqlstart` aliased to `brew services start postgresql`(Start postgresql via brew services)
+  4. `psqlstop` aliased to `brew services stop postgresql`(Stop postgresql via brew services)
+
 ## Check zsh version
 `zsh --version`
 
