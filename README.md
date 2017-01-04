@@ -130,8 +130,16 @@ required [Homebrew](https://github.com/dongyeonlee/setting#Homebrew)
 ## current custom alias
   1. `gmsq` aliased to `git merge --squash`(Branch merged that some commits to be merge one commit)
   2. `gbm` aliased to `git branch -m`(branch rename)
-  3. `psqlstart` aliased to `brew services start postgresql`(Start postgresql via brew services)
-  4. `psqlstop` aliased to `brew services stop postgresql`(Stop postgresql via brew services)
+  3. `ggup` aliased to `git pull --rebase origin current_branch`(pull rebase current branch in origin repository)
+  4.  `bi` aliased to `brew install`
+  5.  `bd` aliased to `brew doctor`
+  6.  `bl` aliased to `brew list`
+  7.  `blv` aliased to `brew list --versions`
+  8.  `bs`  aliased to `brew search`
+  9.  `bu`  aliased to `brew uninstall`
+  10. `bst` aliased to `brew services start`
+  11. `bsp` alaised to `brew services stop`
+  12. `buuc`  aliased to `brew update && brew upgrade && brew cleanup`
 
 ## Check zsh version
 `zsh --version`
@@ -141,12 +149,6 @@ required [Homebrew](https://github.com/dongyeonlee/setting#Homebrew)
 ```sudo hostname [yourhostname]```
 ## Show hidden file & directory
 ```defaults write com.apple.Finder AppleShowAllFiles YES```
-
-## More Alias?
-  - `sh ./terminal/alias.sh`
-
-## Do you want create bash_profile ?
-  - `sh ./terminal/bash_profile.sh`
 
 # Alfred
  Alfred directory include my custom setting for Alfred workflow.<br>
