@@ -1,22 +1,50 @@
-brew cask install java
-brew install pstree
-brew install tree
-brew install git
-brew install svn
-brew install wget
-brew install scala --with-docs --with-src
-brew install ruby
-brew install maven
-brew install nodejs
-brew install vim --with-override-system-vi
-brew install ammonite-repl
-brew install docker
-brew install zookeeper
-brew install kafka
-brew install gradle --with-all
-brew install hadoop
-brew install apache-spark
-brew install mongodb
-brew install redis
-brew install postgresql
-brew install rabbitmq
+# Specify Packages on CaskRoom
+brew update
+
+local CASK_PACKAGES_TO_INSTALL=("java"
+"atom"
+"google-chrome"
+"sublime-text"
+"intellij-idea"
+"pycharm"
+"rubymine"
+"webstorm"
+"datagrip"
+"sourcetree"
+"iterm2"
+)
+
+local GENERAL_PACKAGES_TO_INSTALL=("pstree"
+"tree"
+"git"
+"svn"
+"wget"
+"scala --with-docs --with-src"
+"ruby"
+"maven"
+"nodejs"
+"vim --with-override-system-vi"
+"ammonite-repl"
+"docker"
+"zookeeper"
+"kafka"
+"gradle --with-all"
+"hadoop"
+"apache-spark"
+"mongodb"
+"redis"
+"postgresql"
+"rabbitmq"
+"elasticsearch"
+)
+
+# cask job
+for cask in "${CASK_PACKAGES_TO_INSTALL[@]}"
+do
+  brew cask install $cask
+done
+
+for general in "${GENERAL_PACKAGES_TO_INSTALL[@]}"
+do
+  brew install $general
+done

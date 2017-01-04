@@ -9,3 +9,8 @@ echo 'export DEFAULT_USER="$USER"' >> ~/.zshrc
 
 # overwrite config
 cat shell/custom_alias.sh >> ~/.zshrc
+
+# zsh-completions to plugins
+sed -i -- 's/(git)/(git zsh-completions)/g' ~/.zshrc
+
+echo 'autoload -U compinit && compinit' >> ~/.zshrc
