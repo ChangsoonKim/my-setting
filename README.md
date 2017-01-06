@@ -49,14 +49,13 @@ And `install.sh` or `complete_install.sh` will continue installation.
 
 ## zsh
    `brew install zsh` <br>
-   `chsh -s $(which zsh)` <br>
-   **restart terminal**
+   `chsh -s $(which zsh)`
 
 ## pstree
   `brew install pstree`
 
 ## tree
-  `brew install pstree`
+  `brew install tree`
 
 ## git
   `brew install git`
@@ -154,7 +153,10 @@ required [Homebrew](https://github.com/dongyeonlee/setting#Homebrew)
 
 # Another
 ## Change macOS Hostname
-```sudo hostname [your host name]```
+```sudo hostname [hostname you wanted]```
+or
+`sudo scutil --set HostName [hostname you wanted]`
+
 ## Show hidden file & directory
 ```defaults write com.apple.Finder AppleShowAllFiles YES```
 
