@@ -29,6 +29,7 @@ And `install.sh` or `complete_install.sh` will continue installation.
  21. [postgresql](#postgresql)
  22. [redis](#redis)
  23. [rabbitmq](#rabbitmq)
+ 24. [elasticsearch](#elasticsearch)
 
 ## required environment before starting this setting using shell.
  1. [macOS CLT](#macos-clt)
@@ -116,15 +117,18 @@ And `install.sh` or `complete_install.sh` will continue installation.
 ## rabbitmq
   `brew install rabbitmq`
 
+## elasticsearch
+  `brew install elasticsearch`
+
 # install
-run `./install.sh` on terminal <br>
+run `sh install.sh` on terminal <br>
 required [zsh](https://github.com/dongyeonlee/setting#zsh)<br>
 required [Homebrew](https://github.com/dongyeonlee/setting#Homebrew)
 
 # Help
 ## Show alias
   1. open iTerm or terminal
-  2. `alias` on commond line
+  2. `alias` on command line
   3. show alias setting
 
 ## current custom alias
@@ -138,7 +142,7 @@ required [Homebrew](https://github.com/dongyeonlee/setting#Homebrew)
   8.  `bs`  aliased to `brew search`
   9.  `bu`  aliased to `brew uninstall`
   10. `bst` aliased to `brew services start`
-  11. `bsp` alaised to `brew services stop`
+  11. `bsp` aliased to `brew services stop`
   12. `buuc`  aliased to `brew update && brew upgrade && brew cleanup`
   13. `bci` aliased to `brew cask install`
   14. `bcl` aliased to `brew cask list`
@@ -150,7 +154,7 @@ required [Homebrew](https://github.com/dongyeonlee/setting#Homebrew)
 
 # Another
 ## Change macOS Hostname
-```sudo hostname [yourhostname]```
+```sudo hostname [your host name]```
 ## Show hidden file & directory
 ```defaults write com.apple.Finder AppleShowAllFiles YES```
 
