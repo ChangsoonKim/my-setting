@@ -140,6 +140,10 @@ required [Homebrew](https://github.com/dongyeonlee/setting#Homebrew)
   10. `bst` aliased to `brew services start`
   11. `bsp` alaised to `brew services stop`
   12. `buuc`  aliased to `brew update && brew upgrade && brew cleanup`
+  13. `bci` aliased to `brew cask install`
+  14. `bcl` aliased to `brew cask list`
+  15. `bclv`  aliased to `brew cask list --versions`
+  16. `bcu` aliased to `brew cask uninstall`
 
 ## Check zsh version
 `zsh --version`

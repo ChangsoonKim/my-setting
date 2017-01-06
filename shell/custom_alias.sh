@@ -21,20 +21,32 @@ alias ggup="git pull --rebase origin $(git_current_branch)"
 # brew install
 alias bi="brew install"
 
+# brew cask install
+alias bci="brew cask install"
+
 # brew doctor
 alias bd="brew doctor"
 
 # brew list
 alias bl="brew list"
 
+# brew cask list
+alias bcl="brew cask list"
+
 # brew list --versions
 alias blv="brew list --versions"
+
+# brew cask list --versions
+alias bclv="brew cask list --versions"
 
 # brew search
 alias bs="brew search"
 
 # brew uninstall
 alias bu="brew uninstall"
+
+# brew cask uninstall
+alias bcu="brew cask uninstall"
 
 # brew services start
 alias bst="brew services start"
