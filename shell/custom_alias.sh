@@ -28,7 +28,7 @@ alias bd="brew doctor"
 alias bl="brew list"
 
 # brew list --version
-alias blv="brew list --version"
+alias blv="brew list --versions"
 
 # brew search
 alias bs="brew search"
