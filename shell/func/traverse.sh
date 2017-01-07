@@ -13,7 +13,7 @@ if [ -z $MY_PATH -o -z $MY_CMD ]
     return 1
 fi
 
-if [[ "$(which $MY_CMD)" == *"not found" ]]
+if [[ "$(which $(cut -d ' ' -f 1 <<< "$MY_CMD"))" == *"not found" ]]
   then
     echo "$MY_CMD not found. Check this function if exist."
     return 1
