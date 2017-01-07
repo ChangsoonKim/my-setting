@@ -165,4 +165,6 @@ or
  So lovely custom workflow. I think very useful workflow for me.<br>
 
 # LICENSE
-  MIT author dongyeon lee(loustler)
+  MIT.
+
+  Author dongyeon lee(loustler)
