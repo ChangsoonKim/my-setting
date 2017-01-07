@@ -6,6 +6,7 @@ local MY_PATH="$2"
 local MY_DEPTH="$3"
 local CNT=0
 local MY_CURRENT_PATH=$(pwd)
+local MY_REAL_CMD="$(cut -d ' ' -f 1 <<< "$MY_CMD")"
 
 if [ -z $MY_PATH -o -z $MY_CMD ]
   then
@@ -13,9 +14,9 @@ if [ -z $MY_PATH -o -z $MY_CMD ]
     return 1
 fi
 
-if [[ "$(which $(cut -d ' ' -f 1 <<< "$MY_CMD"))" == *"not found" ]]
+if [[ "$(which $MY_REAL_CMD)" == *"not found" ]]
   then
-    echo "$MY_CMD not found. Check this function if exist."
+    echo "$MY_REAL_CMD not found. Check this function if exist."
     return 1
 fi
 
