@@ -3,7 +3,7 @@ Shell needs root(sudo) user authority.
 
 ## Warning
 Execute command `exit` after install oh-my-zsh.<br>
-And `install.sh` or `complete_install.sh` will continue installation.
+And `install.sh` or `complete_install.sh` will be continue installation.
 
 # Default Setting
  1. [macOS CLT(Command Line Tool)](#macos-clt)
@@ -163,3 +163,6 @@ or
 # Alfred
  Alfred directory include my custom setting for Alfred workflow.<br>
  So lovely custom workflow. I think very useful workflow for me.<br>
+
+# LICENSE
+  MIT author dongyeon lee(loustler)
