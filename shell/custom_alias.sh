@@ -42,6 +42,9 @@ alias bclv="brew cask list --versions"
 # brew search
 alias bs="brew search"
 
+# brew cask search
+alias bcs="brew cask search"
+
 # brew uninstall
 alias bu="brew uninstall"
 

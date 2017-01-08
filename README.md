@@ -132,21 +132,22 @@ required [Homebrew](https://github.com/dongyeonlee/setting#Homebrew)
 
 ## current custom alias
   1. `gmsq` aliased to `git merge --squash`(Branch merged that some commits to be merge one commit)
-  2. `gbm` aliased to `git branch -m`(branch rename)
-  3. `ggup` aliased to `git pull --rebase origin current_branch`(pull rebase current branch in origin repository)
-  4.  `bi` aliased to `brew install`
-  5.  `bd` aliased to `brew doctor`
-  6.  `bl` aliased to `brew list`
-  7.  `blv` aliased to `brew list --versions`
-  8.  `bs`  aliased to `brew search`
-  9.  `bu`  aliased to `brew uninstall`
-  10. `bst` aliased to `brew services start`
-  11. `bsp` aliased to `brew services stop`
-  12. `buuc`  aliased to `brew update && brew upgrade && brew cleanup`
-  13. `bci` aliased to `brew cask install`
-  14. `bcl` aliased to `brew cask list`
-  15. `bclv`  aliased to `brew cask list --versions`
-  16. `bcu` aliased to `brew cask uninstall`
+  1. `gbm` aliased to `git branch -m`(branch rename)
+  1. `ggup` aliased to `git pull --rebase origin current_branch`(pull rebase current branch in origin repository)
+  1.  `bi` aliased to `brew install`
+  1.  `bd` aliased to `brew doctor`
+  1.  `bl` aliased to `brew list`
+  1.  `blv` aliased to `brew list --versions`
+  1.  `bs`  aliased to `brew search`
+  1.  `bcs` aliased to `brew cask search`
+  1.  `bu`  aliased to `brew uninstall`
+  1. `bst` aliased to `brew services start`
+  1. `bsp` aliased to `brew services stop`
+  1. `buuc`  aliased to `brew update && brew upgrade && brew cleanup`
+  1. `bci` aliased to `brew cask install`
+  1. `bcl` aliased to `brew cask list`
+  1. `bclv`  aliased to `brew cask list --versions`
+  1. `bcu` aliased to `brew cask uninstall`
 
 ## Check zsh version
 `zsh --version`
