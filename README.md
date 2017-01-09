@@ -7,33 +7,33 @@ And `install.sh` or `complete_install.sh` will be continue installation.
 
 # Default Setting
  1. [macOS CLT(Command Line Tool)](#macos-clt)
- 2. [Homebrew](#homebrew)
- 3. [zsh](#zsh)
- 4. [pstree](#pstree)
- 5. [git](#git)
- 6. [svn](#svn)
- 7. [wget](#wget)
- 8. [java](#java)
- 9. [scala with docs and source](#scala-with-docs-and-source)
- 10. [ruby](#ruby)
- 11. [maven](#maven)
- 12. [nodejs](#nodejs)
- 13. [vim](#vim)
- 14. [ammonite-repl](#ammonite-repl)
- 15. [docker](#docker)
- 16. [kafka](#kafka)
- 17. [gradle with all](#gradle)
- 18. [hadoop](#hadoop)
- 19. [spark](#spark)
- 20. [mongodb](#mongodb)
- 21. [postgresql](#postgresql)
- 22. [redis](#redis)
- 23. [rabbitmq](#rabbitmq)
- 24. [elasticsearch](#elasticsearch)
+ 1. [Homebrew](#homebrew)
+ 1. [zsh](#zsh)
+ 1. [pstree](#pstree)
+ 1. [git](#git)
+ 1. [svn](#svn)
+ 1. [wget](#wget)
+ 1. [java](#java)
+ 1. [scala with docs and source](#scala-with-docs-and-source)
+ 1. [maven](#maven)
+ 1. [nodejs](#nodejs)
+ 1. [vim](#vim)
+ 1. [ammonite-repl](#ammonite-repl)
+ 1. [docker](#docker)
+ 1. [kafka](#kafka)
+ 1. [gradle with all](#gradle)
+ 1. [hadoop](#hadoop)
+ 1. [spark](#spark)
+ 1. [mongodb](#mongodb)
+ 1. [postgresql](#postgresql)
+ 1. [redis](#redis)
+ 1. [rabbitmq](#rabbitmq)
+ 1. [elasticsearch](#elasticsearch)
+ 1. [ruby](#ruby)
 
 ## required environment before starting this setting using shell.
  1. [macOS CLT](#macos-clt)
- 2. [Homebrew](#homebrew)
+ 1. [Homebrew](#homebrew)
 
 ### Would you want include the required environment to install.sh?
 `sh complete_install.sh`
@@ -71,11 +71,6 @@ And `install.sh` or `complete_install.sh` will be continue installation.
 
 ## scala with docs and source
   `brew install scala --with-docs --with-src`
-
-## ruby
-  `brew install ruby`
-  - install bundler
-    - `gem install bundler`
 
 ## maven
   `brew install maven`
@@ -119,6 +114,10 @@ And `install.sh` or `complete_install.sh` will be continue installation.
 ## elasticsearch
   `brew install elasticsearch`
 
+## ruby
+  not use brew<br>
+  `\curl -sSL https://get.rvm.io | bash -s stable`
+
 # install
 run `sh install.sh` on terminal <br>
 required [zsh](https://github.com/dongyeonlee/setting#zsh)<br>
@@ -127,8 +126,8 @@ required [Homebrew](https://github.com/dongyeonlee/setting#Homebrew)
 # Help
 ## Show alias
   1. open iTerm or terminal
-  2. `alias` on command line
-  3. show alias setting
+  1. `alias` on command line
+  1. show alias setting
 
 ## current custom alias
   1. `gmsq` aliased to `git merge --squash`(Branch merged that some commits to be merge one commit)

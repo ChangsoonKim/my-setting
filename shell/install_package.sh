@@ -20,7 +20,6 @@ local GENERAL_PACKAGES_TO_INSTALL=("pstree"
 "svn"
 "wget"
 "scala --with-docs --with-src"
-"ruby"
 "maven"
 "nodejs"
 "vim --with-override-system-vi"
@@ -48,3 +47,7 @@ for general in "${GENERAL_PACKAGES_TO_INSTALL[@]}"
 do
   brew install $general
 done
+
+# Special package not used brew
+## for ruby
+\\curl -sSL https://get.rvm.io | bash -s stable
