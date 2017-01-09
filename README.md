@@ -134,6 +134,7 @@ required [Homebrew](https://github.com/dongyeonlee/setting#Homebrew)
   1. `gmsq` aliased to `git merge --squash`(Branch merged that some commits to be merge one commit)
   1. `gbm` aliased to `git branch -m`(branch rename)
   1. `ggup` aliased to `git pull --rebase origin current_branch`(pull rebase current branch in origin repository)
+  1.  `gbv` aliased to `git branch -v`
   1.  `bi` aliased to `brew install`
   1.  `bd` aliased to `brew doctor`
   1.  `bl` aliased to `brew list`

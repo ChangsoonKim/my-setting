@@ -14,6 +14,9 @@ alias gbm="git branch -m"
 # git pull --rebase origin current_branch
 alias ggup="git pull --rebase origin $(git_current_branch)"
 
+# git branch -v
+alias gbv="git branch -v"
+
 # --- git alias end
 
 # brew alias start ---
