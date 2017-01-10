@@ -1,7 +1,7 @@
 # Specify Packages on CaskRoom
 brew update
 
-local CASK_PACKAGES_TO_INSTALL=("java"
+CASK_PACKAGES_TO_INSTALL=("java"
 "atom"
 "google-chrome"
 "sublime-text"
@@ -14,7 +14,7 @@ local CASK_PACKAGES_TO_INSTALL=("java"
 "iterm2"
 )
 
-local GENERAL_PACKAGES_TO_INSTALL=("pstree"
+GENERAL_PACKAGES_TO_INSTALL=("pstree"
 "tree"
 "git"
 "svn"
@@ -47,7 +47,3 @@ for general in "${GENERAL_PACKAGES_TO_INSTALL[@]}"
 do
   brew install $general
 done
-
-# Special package not used brew
-## for ruby
-\\curl -sSL https://get.rvm.io | bash -s stable
