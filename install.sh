@@ -8,3 +8,5 @@ source shell/config.sh
 source shell/install_package.sh
 
 defaults write com.apple.Finder AppleShowAllFiles YES
+
+source shell/cleanup.sh
