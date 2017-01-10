@@ -1,0 +1,3 @@
+# in install packages.sh
+CASK_PACKAGES_TO_INSTALL=''
+GENERAL_PACKAGES_TO_INSTALL=''
