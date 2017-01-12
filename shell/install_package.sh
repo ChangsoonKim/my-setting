@@ -4,6 +4,7 @@ brew update
 CASK_PACKAGES_TO_INSTALL=("java"
 "atom"
 "google-chrome"
+"firefox"
 "sublime-text"
 "intellij-idea"
 "pycharm"
