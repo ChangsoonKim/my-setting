@@ -65,8 +65,6 @@ sh /shell/bash_profile.sh
 CATALINA_HOME means tomcat root directory <br>
 and typing below command.<br>
 `sudo ln -s your/tomcat/directory /Library/Tomcat`<br>
-## Want more alias?
-- do it `sh /shell/alias.sh`
 
 # Diffrent ZSH and Bash
 1. scp
