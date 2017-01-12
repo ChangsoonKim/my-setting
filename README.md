@@ -38,7 +38,7 @@ And `install.sh` or `complete_install.sh` will be continue installation.
 `sh complete_install.sh`
 
 ## macOS CLT
-`xcode-select -—install`
+`xcode-select --install`
 
 ## Homebrew
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
