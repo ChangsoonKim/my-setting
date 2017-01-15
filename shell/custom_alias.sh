@@ -63,6 +63,9 @@ alias bsp="brew services stop"
 # brew update && brew upgrade && brew cleanup
 alias buuc="brew update && brew upgrade && brew cleanup"
 
+# brew outdated
+alias bo="brew outdated"
+
 # --- brew alias end
 
 ##############################################
