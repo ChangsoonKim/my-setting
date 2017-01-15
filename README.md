@@ -143,6 +143,7 @@ required [Homebrew](https://github.com/dongyeonlee/setting#Homebrew)
   1. `bcl` aliased to `brew cask list`
   1. `bclv`  aliased to `brew cask list --versions`
   1. `bcu` aliased to `brew cask uninstall`
+  1. `bo`  aliased to `brew outdated`
 
 ## Check zsh version
 `zsh --version`
