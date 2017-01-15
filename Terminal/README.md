@@ -49,12 +49,12 @@ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/theme
       - ```echo 'export PATH="/usr/local/sbin:$PATH"' >> ~/.zshrc```
     - [more config](https://github.com/bhilburn/powerlevel9k/wiki/Show-Off-Your-Config)
 
-## .bash_profile & my conf
+## .bash_profile & my configuration
   * [view .bash_profile.sh](./.bash_profile.sh)
 ```
 sh /shell/bash_profile.sh
 ```
- my bash_prifile include below
+ Below options in my bash_profile
  1. JAVA_HOME
  2. HOMEBREW_GITHUB_API_TOKEN
  3. PATH
