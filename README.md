@@ -114,9 +114,11 @@ And `install.sh` or `complete_install.sh` will be continue installation.
   `brew install elasticsearch`
 
 # install
-run `sh install.sh` on terminal <br>
-required [zsh](https://github.com/dongyeonlee/setting#zsh)<br>
-required [Homebrew](https://github.com/dongyeonlee/setting#Homebrew)
+run `sh install.sh` on terminal
+
+require
+ 1. [zsh](#zsh)
+ 1. [Homebrew](#homebrew)
 
 # Help
 ## Show alias
