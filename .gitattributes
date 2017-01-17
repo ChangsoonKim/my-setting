@@ -1,0 +1,7 @@
+*.ismp				binary
+*.alfredworkflow	binary
+*.plist				filter=xmlplist
+*.terminal			binary
+*.itermcolors		binary
+*.ttf				binary
+*.jar				binary
