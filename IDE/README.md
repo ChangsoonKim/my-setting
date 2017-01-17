@@ -1,5 +1,5 @@
 # IDE Themes
-Apply themes for IDE(Jetbrains's IDE)
+Apply themes for IDE
 
 # Download link
 [color-themes](http://color-themes.com/?view=index)
