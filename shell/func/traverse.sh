@@ -3,7 +3,7 @@
 function rtd {
   local MY_CURRENT_PATH=$(pwd)
   local MY_CMD="$1"
-  local MY_PATH="$2"
+  local MY_PATH="$MY_CURRENT_PATH/$2"
   local MY_DEPTH="$3"
   local CNT=0
   local MY_REAL_CMD="$(cut -d ' ' -f 1 <<< "$MY_CMD")"
@@ -31,9 +31,9 @@ function rtd {
       then
         echo "$CNT----------------------------------------"
         echo "starting $MY_CMD in $REPLY"
-        cd "$MY_CURRENT_PATH/$REPLY"
+        cd "$REPLY"
         eval "$MY_CMD"
-        cd "$MY_CURRENT_PATH/$MY_PATH"
+        cd "$MY_PATH"
         echo "----------------------------------------$CNT"
     fi
     CNT=$(($CNT + 1))
