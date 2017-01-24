@@ -36,6 +36,7 @@ GENERAL_PACKAGES_TO_INSTALL=("pstree"
 "postgresql"
 "rabbitmq"
 "elasticsearch"
+"gpg"
 )
 
 # cask job
