@@ -5,6 +5,22 @@ Shell needs root(sudo) user authority.
 Execute command `exit` after install oh-my-zsh.<br>
 And `install.sh` or `complete_install.sh` will be continue installation.
 
+# Another Configuration
+## Git
+  default configuration
+
+  1. user.name `git config --global user.name [name]`
+  2. user.email `git config --global user.email [email]`
+
+## GPG
+  Require GPG package
+
+  Show github docs about gpg 
+
+  1.  [docs list](https://help.github.com/articles/signing-commits-with-gpg/)
+  1.  [generate gpg](https://help.github.com/articles/generating-a-new-gpg-key/)
+  1.  [Add gpg to github account](https://help.github.com/articles/adding-a-new-gpg-key-to-your-github-account/)
+
 # Default Setting
  1. [macOS CLT(Command Line Tool)](#macos-clt)
  1. [Homebrew](#homebrew)
@@ -157,12 +173,12 @@ require
 
 # Another
 ## Change macOS Hostname
-```sudo hostname [hostname you wanted]```
+`sudo hostname [hostname you wanted]`
 or
 `sudo scutil --set HostName [hostname you wanted]`
 
 ## Show hidden file & directory
-```defaults write com.apple.Finder AppleShowAllFiles YES```
+`defaults write com.apple.Finder AppleShowAllFiles YES`
 
 # Alfred
  Alfred directory include my custom setting for Alfred workflow.<br>
