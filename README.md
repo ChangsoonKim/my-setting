@@ -29,6 +29,7 @@ And `install.sh` or `complete_install.sh` will be continue installation.
  1. [redis](#redis)
  1. [rabbitmq](#rabbitmq)
  1. [elasticsearch](#elasticsearch)
+ 1. [GPG](#gpg)
 
 ## required environment before starting this setting using shell.
  1. [macOS CLT](#macos-clt)
@@ -112,6 +113,9 @@ And `install.sh` or `complete_install.sh` will be continue installation.
 
 ## elasticsearch
   `brew install elasticsearch`
+
+## gpg
+  `brew install gpg`
 
 # install
 run `sh install.sh` on terminal
