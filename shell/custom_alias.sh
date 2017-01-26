@@ -20,6 +20,12 @@ alias gbv="git branch -v"
 # git tag -a
 alias gta="git tag -a"
 
+# git merge --verify-signatures -S | use signature
+alias gms="git merge --verify-signatures -S"
+
+# git commit -S -m
+alias gcs!="git commit -S -m"
+
 # --- git alias end
 
 # brew alias start ---

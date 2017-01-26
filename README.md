@@ -152,6 +152,8 @@ require
   1. `ggup` aliased to `git pull --rebase origin current_branch`(pull rebase current branch in origin repository)
   1.  `gbv` aliased to `git branch -v`
   1.  `gta` aliased to `git tag -a`
+  1.  `gms` aliased to `git merge --verify-signatures -S`(Merge to branch with signature)
+  1.  `gcs!` aliased to `git commit -S -m`(Commit with signature)
   1.  `bi` aliased to `brew install`
   1.  `bd` aliased to `brew doctor`
   1.  `bl` aliased to `brew list`
