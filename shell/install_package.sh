@@ -37,6 +37,7 @@ GENERAL_PACKAGES_TO_INSTALL=("pstree"
 "rabbitmq"
 "elasticsearch"
 "gpg"
+"pinentry-mac"
 )
 
 # cask job
