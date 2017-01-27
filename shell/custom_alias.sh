@@ -26,6 +26,9 @@ alias gms="git merge --verify-signatures -S"
 # git commit -S -m
 alias gcs!="git commit -S -m"
 
+# git logs --with-signature
+alias gls="git logs"
+
 # --- git alias end
 
 # brew alias start ---
