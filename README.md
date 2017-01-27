@@ -14,7 +14,8 @@ case I. Already install gpg
 1. `rvm install [ruby version] --disable-binary`
 
 
-case II. Not installed gpg.
+case II. Not installed gpg
+
 1. `\curl -sSL https://get.rvm.io | bash -s stable`
 1. `rvm install [ruby version] --disable-binary`
 
