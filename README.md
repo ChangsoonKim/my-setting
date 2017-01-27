@@ -5,6 +5,25 @@ Shell needs root(sudo) user authority.
 Execute command `exit` after install oh-my-zsh.<br>
 And `install.sh` or `complete_install.sh` will be continue installation.
 
+Follow below like if you want to install ruby via rvm.
+
+case I. If you might already install gpg
+
+1. `\curl -sSL https://get.rvm.io | bash -s stable`
+2. `rvm install [ruby version] --disable-binary`
+
+case II. If you might not installed gpg.
+
+1. `gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3` [show rvm](https://rvm.io/)
+2. `\curl -sSL https://get.rvm.io | bash -s stable`
+3. `rvm install [ruby version] --disable-binary`
+
+Don't worry If you mistake included option which --disable-binary.
+
+Like below reinstall ruby.
+
+`rvm reinstall [ruby version] --disable-binary`
+
 # Another Configuration
 ## Git
   default configuration
