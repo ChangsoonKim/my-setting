@@ -7,16 +7,17 @@ And `install.sh` or `complete_install.sh` will be continue installation.
 
 Follow below like if you want to install ruby via rvm.
 
-case I. If you might already install gpg
-
-1. `\curl -sSL https://get.rvm.io | bash -s stable`
-2. `rvm install [ruby version] --disable-binary`
-
-case II. If you might not installed gpg.
+case I. Already install gpg
 
 1. `gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3` [show rvm](https://rvm.io/)
-2. `\curl -sSL https://get.rvm.io | bash -s stable`
-3. `rvm install [ruby version] --disable-binary`
+1. `\curl -sSL https://get.rvm.io | bash -s stable`
+1. `rvm install [ruby version] --disable-binary`
+
+
+case II. Not installed gpg.
+1. `\curl -sSL https://get.rvm.io | bash -s stable`
+1. `rvm install [ruby version] --disable-binary`
+
 
 Don't worry If you mistake included option which --disable-binary.
 
