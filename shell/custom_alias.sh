@@ -72,6 +72,9 @@ alias bst="brew services start"
 # brew services stop
 alias bsp="brew services stop"
 
+# brew services list It show services list and status
+alias bsl="brew services list"
+
 # brew update && brew upgrade && brew cleanup
 alias buuc="brew update && brew upgrade && brew cleanup"
 

@@ -182,6 +182,7 @@ require
   1.  `bs`  aliased to `brew search`
   1.  `bcs` aliased to `brew cask search`
   1.  `bu`  aliased to `brew uninstall`
+  1.  `bsl` aliased to `brew services list`
   1. `bst` aliased to `brew services start`
   1. `bsp` aliased to `brew services stop`
   1. `buuc`  aliased to `brew update && brew upgrade && brew cleanup`
