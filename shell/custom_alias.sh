@@ -29,6 +29,12 @@ alias gcs!="git commit -S -m"
 # git logs --with-signature
 alias gls="git logs"
 
+# git log -p -1 (Most recent log)
+alias glr="git log -p -1"
+
+# git log -p
+alias gln="git log -p"
+
 # --- git alias end
 
 # brew alias start ---
