@@ -1,7 +1,8 @@
 # Specify Packages on CaskRoom
 brew update
 
-CASK_PACKAGES_TO_INSTALL=("java"
+CASK_PACKAGES_TO_INSTALL=(
+"java"
 "atom"
 "google-chrome"
 "firefox"
@@ -15,7 +16,8 @@ CASK_PACKAGES_TO_INSTALL=("java"
 "iterm2"
 )
 
-GENERAL_PACKAGES_TO_INSTALL=("pstree"
+GENERAL_PACKAGES_TO_INSTALL=(
+"pstree"
 "tree"
 "git"
 "wget"
