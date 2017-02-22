@@ -1,4 +1,3 @@
-
 # commit require gpg signature
 git config --global commit.gpgsign true
 
@@ -24,7 +23,7 @@ if [ -f ~/.gnupg/.gpg-agent-info ] && [ -n "$(pgrep gpg-agent)" ]; then
     export GPG_AGENT_INFO
 else
     eval $(gpg-agent --daemon --write-env-file ~/.gnupg/.gpg-agent-info)
-fi" >> ~/.zshrc
+fi" >> ~/.bash_profile
 
 
 # Configuration for gpg-agent

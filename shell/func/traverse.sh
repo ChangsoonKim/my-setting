@@ -1,5 +1,3 @@
-
-
 function rtd {
   local MY_CURRENT_PATH=$(pwd)
   local MY_CMD="$1"

@@ -1,3 +1,11 @@
+while true; do
+	read -p "Environment of this mac is private? [y/n]: " response
+	case $response in
+		[Yy]*) IS_PRIVATE=true break ;;
+		[Nn]*) IS_PRIVATE=false break ;;
+	esac
+done
+
 source shell/default_shell.sh
 
 # zsh dependencies(oh-my-zsh and powerlevel9k themes)

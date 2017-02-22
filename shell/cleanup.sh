@@ -1,3 +1,4 @@
 # in install packages.sh
+IS_PRIVATE=''
 CASK_PACKAGES_TO_INSTALL=''
 GENERAL_PACKAGES_TO_INSTALL=''
