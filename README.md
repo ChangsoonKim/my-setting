@@ -48,7 +48,6 @@ Like below reinstall ruby.
  1. [zsh](#zsh)
  1. [pstree](#pstree)
  1. [git](#git)
- 1. [svn](#svn)
  1. [wget](#wget)
  1. [java](#java)
  1. [scala with docs and source](#scala-with-docs-and-source)
@@ -96,9 +95,6 @@ Like below reinstall ruby.
 
 ## git
   `brew install git`
-
-## svn
-  `brew install svn`
 
 ## wget
  `brew install wget`
