@@ -52,12 +52,13 @@ Like below reinstall ruby.
  1. [java](#java)
  1. [scala with docs and source](#scala-with-docs-and-source)
  1. [maven](#maven)
+ 1. [gradle with all](#gradle)
+ 1. [sbt](#sbt)
  1. [nodejs](#nodejs)
  1. [vim](#vim)
  1. [ammonite-repl](#ammonite-repl)
  1. [docker](#docker)
  1. [kafka](#kafka)
- 1. [gradle with all](#gradle)
  1. [hadoop](#hadoop)
  1. [spark](#spark)
  1. [mongodb](#mongodb)
@@ -108,6 +109,12 @@ Like below reinstall ruby.
 ## maven
   `brew install maven`
 
+## gradle
+  `brew install gradle --with-all`
+
+## sbt
+  `brew install sbt`
+
 ## nodejs
   `brew install nodejs`
 
@@ -122,9 +129,6 @@ Like below reinstall ruby.
 
 ## kafka
   `brew install kafka`
-
-## gradle
-  `brew install gradle --with-all`
 
 ## hadoop
   `brew install hadoop`
