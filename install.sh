@@ -1,3 +1,5 @@
+DEFAULT_DIR_PATH_="shell/"
+
 while true; do
 	read -p "Environment of this mac is private? [y/n]: " response
 	case $response in
@@ -6,17 +8,9 @@ while true; do
 	esac
 done
 
-source shell/default_shell.sh
 
-# zsh dependencies(oh-my-zsh and powerlevel9k themes)
-source shell/zsh_dependencies.sh
+source "${DEFAULT_DIR_PATH_}install_package.sh"
 
-source shell/config.sh
+source "${DEFAULT_DIR_PATH_}config.sh"
 
-source shell/install_package.sh
-
-source shell/git_configuration.sh
-
-defaults write com.apple.Finder AppleShowAllFiles YES
-
-source shell/cleanup.sh
+source "${DEFAULT_DIR_PATH_}cleanup.sh"

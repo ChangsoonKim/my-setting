@@ -1,7 +1,8 @@
-echo 'export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)' >> ~/.bash_profile
-echo 'export SCALA_HOME="/usr/local/opt/scala/idea"' >> ~/.bash_profile
-echo 'export SBT_OPTS="-XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=512M"' >> ~/.bash_profile
-echo 'export HOMEBREW_GITHUB_API_TOKEN="{homebrew access token}"' >> ~/.bash_profile
-echo 'export PATH="/usr/local/sbin:$PATH"' >> ~/.bash_profile
-echo 'export CLICOLOR=1' >> ~/.bash_profile
-echo 'export LSCOLORS=DxFxCxGxBxegedabagaced' >> ~/.bash_profile
+BASH_PROFILE_PATH_="~/.bash_profile"
+
+echo 'export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)' >> $BASH_PROFILE_PATH_
+echo 'export SCALA_HOME="/usr/local/opt/scala/libexec"' >> $BASH_PROFILE_PATH_
+echo 'export HOMEBREW_GITHUB_API_TOKEN="{homebrew access token}"' >> $BASH_PROFILE_PATH_
+echo 'export PATH="/usr/local/sbin:$PATH"' >> $BASH_PROFILE_PATH_
+echo 'export CLICOLOR=1' >> $BASH_PROFILE_PATH_
+echo 'export LSCOLORS=DxFxCxGxBxegedabagaced' >> $BASH_PROFILE_PATH_

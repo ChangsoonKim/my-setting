@@ -61,9 +61,7 @@ Like below reinstall ruby.
  1. [kafka](#kafka)
  1. [hadoop](#hadoop)
  1. [spark](#spark)
- 1. [mongodb](#mongodb)
  1. [postgresql](#postgresql)
- 1. [redis](#redis)
  1. [rabbitmq](#rabbitmq)
  1. [elasticsearch](#elasticsearch)
  1. [GPG](#gpg)
@@ -85,7 +83,8 @@ Like below reinstall ruby.
 `brew cleanup`
 
 ## zsh
-   `brew install zsh` <br>
+   `brew install zsh`
+   
    `chsh -s $(which zsh)`
 
 ## pstree
@@ -136,14 +135,8 @@ Like below reinstall ruby.
 ## spark
   `brew install apache-spark`
 
-## mongodb
-  `brew install mongodb`
-
 ## postgresql
   `brew install postgresql`
-
-## redis
-  `brew install redis`
 
 ## rabbitmq
   `brew install rabbitmq`

@@ -10,7 +10,6 @@ CASK_PACKAGES_TO_INSTALL=(
 	"intellij-idea"
 	"pycharm"
 	"rubymine"
-	"datagrip"
 	"iterm2"
 )
 
@@ -31,21 +30,20 @@ GENERAL_PACKAGES_TO_INSTALL=(
 	"kafka"
 	"hadoop"
 	"apache-spark"
-	"mongodb"
-	"redis"
 	"postgresql"
 	"rabbitmq"
 	"elasticsearch"
-	"gpg"
-	"pinentry-mac"
 )
 
-if [ "$IS_PRIVATE" = true ] then
+if [ "$IS_PRIVATE" = true ]; then
 	CASK_PACKAGES_TO_INSTALL+=(
 		"sourcetree"
-		"webstorm"
+		"datagrip"
 	)
-	# GENERAL_PACKAGES_TO_INSTALL+=("")
+	GENERAL_PACKAGES_TO_INSTALL+=(
+		"gpg"
+		"pinentry-mac"
+	)
 else
 	# CASK_PACKAGES_TO_INSTALL+=("")
 	# GENERAL_PACKAGES_TO_INSTALL+=("")
